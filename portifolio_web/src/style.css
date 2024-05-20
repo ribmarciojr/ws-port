@@ -1,0 +1,48 @@
+:root {
+    --main-color: #0065FF;
+    --second-color: #3C3B3A;
+    --main-font-type: "EB Garamond"
+
+    --second-font-type: "BE Vietnam"
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;  
+}
+
+header {
+    display: flex;
+    width: 1920px;
+    justify-content: space-between;
+    box-shadow: 0 50px 60px rgb(0, 0, 0, 0.3);
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    padding: 30px;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 18px;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+nav ul i {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
